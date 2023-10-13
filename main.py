@@ -3,6 +3,8 @@
 import re
 import os
 
+# TODO 1: 增加启动参数以决定处理的元件类型
+
 _NUMS_ = {"led": 16, "sw": 16, "seg": 7, "an": 4}
 def handleArrLike(name, fin, fout):
     tmpList = []
